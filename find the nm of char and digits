@@ -1,0 +1,10 @@
+x = input()
+digit=0
+alphabet=0
+for i in x:
+  if i.isdigit():
+    digit+=1
+  elif i.isalpha():
+    alphabet+=1
+print('Digit:',digit)
+print("Alphabet:",alphabet) 
